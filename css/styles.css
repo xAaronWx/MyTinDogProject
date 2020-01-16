@@ -1,0 +1,178 @@
+/* css design for the tindog website
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#tagline {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: normal;
+}
+
+/* Download Buttons */
+.downloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.titleImage {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+  right: 25%;
+}
+
+/* Features */
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.Feature-Box {
+  padding: 4%;
+}
+
+.featureIcons {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.featureIcons:hover {
+  color: #ff4668;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 2%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to action */
+#cta {
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: bold;
+  background-color: #ff4668;
+  padding: 2% 0;
+}
+
+#outro {
+  font-size: 2.5rem;
+  color: white;
+  padding: 2% 0;
+}
+
+/* Footer */
+.social-btns {
+  margin-top: 4%;
+  padding: 0 2%;
+}
+
+#footer {
+  background-color: white;
+}
+
+#copyright {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  color: grey;
+  padding: 3% 0;
+}
+
+/* media jquery */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .titleImage {
+    position: static;
+    transform: rotate(0deg);
+    width: 65%;
+  }
+}
